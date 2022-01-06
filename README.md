@@ -3,14 +3,18 @@
 Just play around with new things in rails
 
 ### Prerequisites
-- Ruby >= 3.0
+- Ruby 3.0.1
 - Postgresql
 
 ### Setup
 - Create database
-`rails db:create`
+```
+rails db:create
+```
 - Run migrations
-`rails db:migrate`
+```
+rails db:migrate
+```
 
 ### Run
 `rails s`

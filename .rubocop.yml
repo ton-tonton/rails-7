@@ -3,5 +3,10 @@ require:
   - rubocop-rspec
 
 AllCops:
+  NewCops: enable
   Exclude:
     - Gemfile*
+    - db/migrate/*
+
+Style/Documentation:
+  Enabled: false
