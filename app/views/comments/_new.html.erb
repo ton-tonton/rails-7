@@ -1,0 +1,17 @@
+<%= form_with model: [post, Comment.new] do |form| %>
+  Your comment: <br>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :body, style: "display: block" %>
+    <%= form.text_area :body, size: '20x5' %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
